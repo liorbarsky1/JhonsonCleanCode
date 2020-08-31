@@ -28,7 +28,7 @@ def draw_graph(start_of_rules, end_of_rules):
         colors = plt.get_cmap("Pastel1")
         strs = ['R0', 'R1', 'R2', 'R3', 'R4', 'R5', 'R6', 'R7', 'R8', 'R9', 'R10', 'R11', 'R12', 'R13', 'R14', 'R15']
 
-        df = pd.read_csv(r'C:\Users\Lior Barsky\Desktop\jhonsonclean\\JhonsonCleanApp\algorithms\outputs\top-16-rules.csv', encoding ="ISO-8859-8")
+        df = pd.read_csv(r'C:\Users\Lior Barsky\Documents\jhonsonC\outputs\top-16-rules.csv', encoding ="ISO-8859-8")
         count = 0
         for i in range(start_of_rules,end_of_rules):
             count += 1
@@ -137,7 +137,7 @@ def run():
     return rules
 
 #run()
-draw_graph(0,8)
+#draw_graph(0,8)
 #draw_graph(0,4)
 #draw_graph(4,8)
 #draw_graph(8,12)

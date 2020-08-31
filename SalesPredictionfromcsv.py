@@ -25,7 +25,7 @@ def run():
     if (someVar == True):
         return plt.figure(1)
     elif (someVar == False):
-        csv_path = r'C:\Users\Lior Barsky\Desktop\jhonsonclean\\JhonsonCleanApp\algorithms\outputs\salesPred2015.csv'
+        csv_path = r'C:\Users\Lior Barsky\Documents\jhonsonC\outputs\salesPred2015.csv'
         sales = pd.read_csv(csv_path, index_col='Month', parse_dates=True, encoding='utf-8')
 
         # Print the first five rows of the dataset

@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def run_by_paramenters(city_number, parameter):
-    df = pd.read_csv(r'C:\Users\Lior Barsky\Desktop\jhonsonclean\\JhonsonCleanApp\algorithms\outputs\city.csv', encoding="ISO-8859-8")
+    df = pd.read_csv(r'C:\Users\Lior Barsky\Documents\jhonsonC\outputs\city.csv', encoding="ISO-8859-8")
     # Make fake dataset
     # height = x-values, bars = ?
     clients_num = []

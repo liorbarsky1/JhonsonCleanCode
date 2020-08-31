@@ -1,7 +1,7 @@
 import pandas as pd
 import random
 #global df
-df = pd.read_csv(r'C:\Users\Lior Barsky\Desktop\jhonsonclean\\JhonsonCleanApp\algorithms\outputs\productsegmentation.csv', encoding="ISO-8859-8")
+df = pd.read_csv(r'C:\Users\Lior Barsky\Documents\jhonsonC\outputs\productsegmentation.csv', encoding="ISO-8859-8")
 
 def get_labels(city_number):
     global df
